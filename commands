@@ -1,0 +1,80 @@
+# Linux Commands Practised
+
+## Linux Fundamentals
+- `man` — View command manual
+- `whoami` — Show current user
+- `id` — Show user and group information
+
+## File & Directory Management
+- `pwd` — Show current directory
+- `ls` — List files and directories
+- `ls -a` — List hidden files and directories
+- `ls -l` — List detailed file information
+- `ls -ltr` — List files in detailed format sorted by modification time
+- `cd` — Change directory
+- `mkdir` — Create directory
+- `touch` — Create file
+- `rm` — Remove file
+- `cp` — Copy files/directories
+- `mv` — Move/rename files/directories
+- `cat` — Display file contents
+
+## Linux Filesystem
+- `pwd` — Show current filesystem location
+- `ls` — List filesystem contents
+- `cd` — Navigate filesystem
+- `ls /home` — List home directories
+
+## User Management
+- `passwd` — Change user password
+- `useradd` — Create user
+- `usermod` — Modify user
+- `usermod -aG` — Add user to group
+- `userdel` — Delete user
+- `cat /etc/passwd` — View user account information
+- `cat /etc/shadow` — View protected password information
+
+## Group Management
+- `groupadd` — Create group
+- `groupdel` — Delete group
+- `usermod -aG` — Add user to group
+- `cat /etc/group` — View group information
+
+## Password Management
+- `passwd` — Change password
+- `passwd -l` — Lock password
+- `passwd -u` — Unlock password
+- `passwd -fu` — Force unlock password
+
+## File Permissions
+- `ls -l` — View file permissions
+- `chmod` — Change file permissions
+- `chmod 755` — Set numeric permissions
+- `chmod 644` — Set numeric permissions
+- `chmod u+x` — Add execute permission for owner
+- `chmod g+w` — Add write permission for group
+- `chmod o-r` — Remove read permission for others
+
+## vi Editor
+- `vi` — Open file in vi editor
+- `i` — Enter insert mode
+- `Esc` — Return to command mode
+- `:w` — Save file
+- `:q` — Quit vi
+- `:wq` — Save and quit
+- `:q!` — Quit without saving
+
+## Process Management
+- `ps` — View running processes
+- `ps aux` — View detailed process information
+
+## Linux Networking
+- `ip addr` — View IP addresses
+- `ip link` — View network interfaces
+- `ping` — Test network connectivity
+- `hostname` — Display system hostname
+
+## Common Linux Commands
+- `echo` — Display text
+- `clear` — Clear terminal
+- `history` — View command history
