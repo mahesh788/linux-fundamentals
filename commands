@@ -1,6 +1,6 @@
 # Linux Commands Practised
 
-## Linux Fundamentals
+# Linux Fundamentals
 - `man` — View command manual
 - `whoami` — Show current user
 - `id` — Show user and group information
