@@ -66,7 +66,7 @@ Practised viewing and working with Linux processes.
 
 The complete practical documentation is available here:
 
-![Linux Fundamentals Practical Documentation](Linux-Fundamentals-Practical.docx)
+[Linux Fundamentals Practical Documentation](Linux-Fundamentals-Practical.docx)
 
 ## Learning Approach
 
